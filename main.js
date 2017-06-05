@@ -3,7 +3,7 @@
 // 1.
 // What does `givenName` equal right now?
 var givenName;
-// A:The variable name
+// A:undefined
 
 
 // 2.
@@ -15,13 +15,13 @@ givenName = "Tim";
 // 3.
 // What is `givenName` set to right now?
 givenName = givenName;
-// A:equal to givenName
+// A:Tim
 
 
 // 4.
 // What is `greeting` set to?
 var greeting = "Hello, how are you? " + givenName;
-// A:Hello, how are you. plus givenName
+// A:Hello, how are you? Tim
 
 
 // 5.
@@ -29,13 +29,13 @@ var greeting = "Hello, how are you? " + givenName;
 var high = 50;
 var low  = 10;
 var math = high - low;
-// A:high minus low
+// A:40
 
 
 // 6.
 // What is `math` set to?
 math = high - "5";
-// A:high minus 5
+// A:45
 
 
 // 7.
@@ -44,7 +44,7 @@ math = high - "5";
 // The answer shoud not be written in a comment.
 var born = 1984;
 var today = 2017;
-// A:var age = 2017 - 1984;
+// A:var age = today - born
 
 
 // 8.
@@ -78,47 +78,47 @@ var myUndefined;
 
 // 11.
 var x = (false == 0);
-// A. false equals 0
+// A. false
 
 
 // 12.
 var y = (false == "");
-// A. false equals ""
+// A. false
 
 
 // 13.
 var z = (0 == "");
-// A.0 equals ""
+// A.false
 
 
 // 14.
 var a = (null == null);
-// A.null is equal to null
+// A.false
 
 
 // 25.
 var b = (undefined == undefined);
-// A.undefined is equal to undefined
+// A.false
 
 
 // 16.
 var c = (undefined == null);
-// A.undefined equals null
+// A.false
 
 
 // 17.
 var d = (null == false);
-// A.null is false
+// A.false
 
 
 // 18.
 var e = (NaN == null);
-// A.NaN is null
+// A.false
 
 
 // 19.
 var f = (NaN == NaN);
-// A.Nan is Nan
+// A.false
 
 
 // 20.
