@@ -44,15 +44,14 @@ math = high - "5";
 // The answer shoud not be written in a comment.
 var born = 1984;
 var today = 2017;
-var age = 2017 - 1984
-// A:
+// A:var age = 2017 - 1984;
 
 
 // 8.
 // Adjust this code. Store some information in the following variables.
-// A:
-var yourName = Zachary;
-var instructorName = Issac;
+// A:youName = Zachary. instructorName = Issac.
+var yourName;
+var instructorName;
 
 
 // 9.
@@ -67,12 +66,12 @@ var statement = yourName + " is taking a class at The Iron Yard, my instructor's
 // 10.
 // We've created a variable named after each primitive type.
 // Use the `=` operator to assign a value to each variable matching the type in the name.
-var myNumber = "5";
-var myString = "This is a string";
-var myBoolean = (false);
+var myNumber;
+var myString;
+var myBoolean;
 // This one's a little tricky - think carefully about what makes a value "undefined"!
 var myUndefined;
-// A:
+// A:myNumber is 5, myString is "This is a string", myBoolean is false
 
 
 // For questions 11 - 19: List which boolean value will be stored in each variable. (Remember: `==` does not check data type)
@@ -125,10 +124,10 @@ var f = (NaN == NaN);
 // 20.
 // Fix the `if...else` statement below by adding an `if` keyword and conditional expression.
 // Use the variable `thirsty` as part of your conditional expression.
-// A:
+// A:if (thirsty)
 var thirsty = true;
 
-if (thirsty){
+{
   console.log("I'm parched!");
 } else {
   console.log("I've had enough to drink.");
