@@ -44,19 +44,19 @@ math = high - "5";
 // The answer shoud not be written in a comment.
 var born = 1984;
 var today = 2017;
-// A:var age = today - born
+// A:var age = "tim is" +(today - born)+ "years old"
 
 
 // 8.
 // Adjust this code. Store some information in the following variables.
-// A:youName = Zachary. instructorName = Issac.
+// A:yourName = "Zachary". instructorName = "Issac".
 var yourName;
 var instructorName;
 
 
 // 9.
 // Update the variables `yourName` and `instructorName` so the expression below reads correctly.
-// A:
+// A:Zachary is taking a class at The Iron Yard, my instructors's name is Issac. "Zachary"+"is taking a class at The Iron Yard, my instructor's name is"+"Issac"
 
 
 // This statement should read correctly
@@ -124,7 +124,7 @@ var f = (NaN == NaN);
 // 20.
 // Fix the `if...else` statement below by adding an `if` keyword and conditional expression.
 // Use the variable `thirsty` as part of your conditional expression.
-// A:if (thirsty)
+// A:if (thirsty){}
 var thirsty = true;
 
 {
