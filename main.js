@@ -143,7 +143,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:if x is true log true if not log false.
+// A:true
 
 
 // 22.
@@ -152,7 +152,7 @@ if(""){
 } else {
 	console.log("False!");
 }
-// A:if "" is true log true if not log false.
+// A:false
 
 
 // 23.
@@ -164,7 +164,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:
+// A:false
 
 
 // 24.
@@ -173,7 +173,7 @@ if(false){
 } else {
 	console.log("False!");
 }
-// A:if false is true log true if false is false log false.
+// A:false
 
 
 // 25.
@@ -182,7 +182,7 @@ if(-5 && 5){
 } else {
 	console.log("False!");
 }
-// A:if -5 and 5 are true log true if false log false.
+// A:true
 
 
 // 26.
@@ -191,7 +191,7 @@ if("Hello World!"){
 } else {
 	console.log("False!");
 }
-// A:if hello world! is true log true if not lof false.
+// A:true
 
 
 // 27.
@@ -200,7 +200,7 @@ if({}){
 } else {
 	console.log("False!");
 }
-// A:if {} is true log true if not log false.
+// A:true
 
 
 // 28.
@@ -209,8 +209,7 @@ if({name: "Yehuda Katz"}){
 } else {
 	console.log("False!");
 }
-// A:if name: "Yehuda Katz" is true log true if not log false.
-
+// A:true
 
 // 29.
 if(new Date()){
@@ -218,7 +217,7 @@ if(new Date()){
 } else {
 	console.log("False!");
 }
-// A:if new date is true log true if not log false
+// A:true
 
 
 // 30.
